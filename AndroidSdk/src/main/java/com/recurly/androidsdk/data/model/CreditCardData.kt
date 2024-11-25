@@ -7,55 +7,55 @@ package com.recurly.androidsdk.data.model
  *
  */
 
-internal object CreditCardData {
+ object CreditCardData {
 
     /**
      * Every variable has its own getters and setters
      */
 
-    private var cardNumber: Long = 0
-    private var expirationMonth: Int = 0
-    private var expirationYear: Int = 0
-    private var cvvCode: Int = 0
-    private var cvvLength = 3
+     var cardNumber: Long = 0
+     var expirationMonth: Int = 0
+     var expirationYear: Int = 0
+     var cvvCode: Int = 0
+     var cvvLength = 3
 
-    internal fun getCardNumber(): Long{
+     fun getCardNumber(): Long{
         return cardNumber
     }
 
-    internal fun setCardNumber(number: Long){
+     fun setCardNumber(number: Long){
         cardNumber = number
     }
 
-    internal fun getExpirationMonth(): Int{
+     fun getExpirationMonth(): Int{
         return expirationMonth
     }
 
-    internal fun setExpirationMonth(month: Int){
+     fun setExpirationMonth(month: Int){
         expirationMonth = month
     }
 
-    internal fun getExpirationYear(): Int{
+     fun getExpirationYear(): Int{
         return expirationYear
     }
 
-    internal fun setExpirationYear(year: Int){
+     fun setExpirationYear(year: Int){
         expirationYear = year
     }
 
-    internal fun getCvvCode(): Int{
+     fun getCvvCode(): Int{
         return cvvCode
     }
 
-    internal fun setCvvCode(cvv: Int){
+     fun setCvvCode(cvv: Int){
         cvvCode = cvv
     }
 
-    internal fun getCvvLength(): Int{
+     fun getCvvLength(): Int{
         return cvvLength
     }
 
-    internal fun setCvvLength(length: Int){
+     fun setCvvLength(length: Int){
         cvvLength = length
     }
 

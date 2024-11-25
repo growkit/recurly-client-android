@@ -7,7 +7,7 @@ package com.recurly.androidsdk.data.model
  *
  */
 
-internal enum class CreditCardsParameters(
+ enum class CreditCardsParameters(
     /**
      * The cardType is the name of the credit card, it has to be the same as the enumerator
      * name, but the enum name has to be capitalized
